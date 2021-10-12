@@ -4,10 +4,10 @@
 # allowed to sit in the exam or not.
 
 num1=int(input("enter the number of classes held:"))
-num2=int(input("enter the number of classes attended:"))
+num2=int(input("enter the number of classes not attended:"))
 totalattendence=num1-num2
 total_attendence_percentage=totalattendence/num1*100
-if(total_attendence_percentage>75):
-    print("student allowed to sit in exam",total_attendence_percentage)
+if total_attendence_percentage>=75:
+    print("student allowed to sit in exam and present percentage are",total_attendence_percentage)
 else:
-    print("student not allowed to sit in exam",total_attendence_percentage)
+    print("student not allowed to sit in exam and present percentage are",total_attendence_percentage)

@@ -7,3 +7,6 @@ elif(month=='june' or month=='july'or month=='august' or month=='september'):
     print("rainy season")
 elif(month=='octomber' or month=='november' or month=='december' or month=='january'):
     print("winter season")
+else:
+    print("enter the correct month")
+    
