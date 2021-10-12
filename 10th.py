@@ -1,14 +1,9 @@
 #Write a Python program to guess a number between 1 to 9
-# num=int(input("enter the number:"))
-# if num<=9:
-#     print("yes")
-#     num2=int(input("enter the number:"))
-#     if num2==9:
-#        print("num entered is corect")
-#     else:
-#        print("num entered is incorrect")
-# else:
-#     print("no")
+num=int(input("enter the number:"))
+if num<=9 and num>=1:
+    print("yes")
+else:
+    print("no")
 
 
 #print the greatest number

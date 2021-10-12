@@ -2,13 +2,13 @@
 #  not (boiling point of water in 100 oC.
 
 tempoC= int(input("enter the number:"))
-if tempoC>=100:
+if tempoC>100 or tempoC==100:
     print("boiling")
-    tempoC2=int(input("enter the number:"))
-    if tempoC2==100:
-        print("its also boiling")
-    else:
-        print("its not boiling")
+    # tempoC2=int(input("enter the number:"))
+    # if tempoC2==100:
+    #     print("its also boiling")
+    # else:
+        # print("its not boiling")
 else:
     print("not boiling")
 

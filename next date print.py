@@ -21,6 +21,3 @@ if date>=1 and date<=31:
 else:
      print("plz enter valid date")
 
-
-    
-
